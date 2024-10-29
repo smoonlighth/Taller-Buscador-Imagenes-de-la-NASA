@@ -1,0 +1,19 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .card {
+    height: 500px; /* Altura máxima de la tarjeta */
+    margin: auto; /* Centra la tarjeta horizontalmente */
+    overflow: hidden; /* Oculta el contenido que sobrepasa la tarjeta */
+}
+
+.card-img-top {
+    height: 300px; /* Altura máxima de la imagen */
+    object-fit: cover; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+}
+
+.card-body {
+    overflow-y: auto; /* Permite el scroll vertical si el contenido excede la altura */
+}
+
