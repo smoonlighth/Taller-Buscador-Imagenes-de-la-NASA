@@ -1,7 +1,16 @@
 main {
     min-height: calc(100vh - 160px);
+    padding: 2rem;
+ }
+
+  h1 {
+    padding: 1rem;
   }
 
+  input {
+    margin-bottom: 1rem;
+  }
+  
   .card {
     height: 500px; /* Altura máxima de la tarjeta */
     margin: auto; /* Centra la tarjeta horizontalmente */
